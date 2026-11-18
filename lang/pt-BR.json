@@ -1,0 +1,16 @@
+{
+  "ACORN_DICE": {
+    "systemName": "Dados-Bolota",
+    "settings": {
+      "applyTo": {
+        "name": "Usar os dados-bolota em",
+        "hint": "\"Todo d6, para todos\" mostra todo d6 de toda rolagem como bolota, em qualquer sistema de jogo. \"Escolha de cada jogador\" só adiciona os Dados-Bolota às configurações do Dice So Nice, onde cada jogador pode escolhê-los.",
+        "all": "Todo d6, para todos",
+        "player": "Escolha de cada jogador (configurações do Dice So Nice)"
+      }
+    },
+    "notify": {
+      "updateDsn": "Os Dados-Bolota precisam de um Dice So Nice mais novo (formas de dado próprias, versão 6 ou superior)."
+    }
+  }
+}

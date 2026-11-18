@@ -1,0 +1,53 @@
+{
+  "id": "acorn-dice-litm",
+  "title": "Acorn Dice",
+  "version": "1.0.0",
+  "description": "An acorn-shaped d6 for Dice So Nice, in any game system: carved golden numbers, a knobbly cup and its own physics shape. Inspired by the acorn dice of Legend in the Mist; an original fan design, not affiliated with Son of Oak.",
+  "authors": [
+    {
+      "name": "Pedro Tostes"
+    }
+  ],
+  "url": "https://github.com/pedronaraujo/acorn-dice-litm",
+  "manifest": "https://raw.githubusercontent.com/pedronaraujo/acorn-dice-litm/main/module.json",
+  "download": "https://raw.githubusercontent.com/pedronaraujo/acorn-dice-litm/main/dist/acorn-dice-litm.zip",
+  "bugs": "https://github.com/pedronaraujo/acorn-dice-litm/issues",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {
+          "verified": "6.4.5"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/pedronaraujo/acorn-dice-litm/main/media/acorn-dice.jpg"
+    }
+  ]
+}

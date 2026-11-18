@@ -1,0 +1,16 @@
+{
+  "ACORN_DICE": {
+    "systemName": "Acorn Dice",
+    "settings": {
+      "applyTo": {
+        "name": "Use acorn dice for",
+        "hint": "\"Every d6, for everyone\" shows every d6 of every roll as an acorn, whatever the game system. \"Each player's choice\" only adds Acorn Dice to the Dice So Nice settings, where each player can pick it.",
+        "all": "Every d6, for everyone",
+        "player": "Each player's choice (Dice So Nice settings)"
+      }
+    },
+    "notify": {
+      "updateDsn": "Acorn Dice needs a newer Dice So Nice (custom dice shapes, version 6 or later)."
+    }
+  }
+}
